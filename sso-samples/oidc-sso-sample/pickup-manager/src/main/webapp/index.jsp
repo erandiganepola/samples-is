@@ -33,7 +33,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="PICKUP MANAGER - Login">
 
-    <title>PickUp Manager Login</title>
+    <title>Wells Fargo | Login</title>
 
     <!-- Bootstrap Material Design CSS -->
     <link href="libs/bootstrap-material-design_4.0.0/css/bootstrap-material-design.min.css" rel="stylesheet">
@@ -51,9 +51,9 @@
         <div class="row">
             <div class="col-sm-9 col-md-4 col-lg-4 mx-auto login-sec">
                 <div class="app-icon d-block mx-auto">
-                    <img src="img/manager.png" class="login-img"/>
+                    <img src="img/Wells-Fargo.png" class="login-img"/>
                 </div>
-                <div class="app-name text-center">PICKUP MANAGER</div>
+                <div class="app-name text-center text-danger">Wells Fargo</div>
                 <form class="app-login-form" role="form" action="oauth2-authorize-user.jsp?reset=true" method="post" id="login-form"
                       autocomplete="off">
                     <input type="submit" id="btn-login" class="btn btn-login" value="LOGIN"/>
@@ -62,9 +62,7 @@
         </div>
     </div>
     <div class="text-muted text-center login-footer">
-        <span>Sample Application. </span>
-        <span>Copyright &copy; <a href="http://wso2.com/" target="_blank">
-            <img src="img/wso2-dark.svg" class="wso2-logo" alt="wso2-logo"></a> &nbsp;<span class="year"></span>
+        <span>Copyright &copy; Wells Fargo</a> &nbsp;<span class="year"></span>
         </span>
     </div>
 </section>

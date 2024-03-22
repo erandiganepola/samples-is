@@ -90,7 +90,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="PICKUP MANAGER - Management Application">
 
-    <title>PICKUP MANAGER</title>
+    <title>Wells Fargo | Home</title>
 
     <!-- Bootstrap Material Design CSS -->
     <link href="libs/bootstrap-material-design_4.0.0/css/bootstrap-material-design.min.css" rel="stylesheet">
@@ -114,7 +114,7 @@
 
 <div id="actionContainer">
     <nav class="navbar navbar-expand-lg navbar-dark app-navbar justify-content-between">
-        <a class="navbar-brand" href="home.jsp"><i class="fas fa-taxi"></i> PICKUP MANAGER</a>
+        <a class="navbar-brand" href="home.jsp">Wells Fargo</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
                 aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -145,8 +145,8 @@
         <div id="main-content">
             <section class="jumbotron text-center">
                 <div class="container">
-                    <div class="jumbotron-heading">PICKUP MANAGER</div>
-                    <p class="lead text-muted">Management Application</p>
+                    <div class="jumbotron-heading">Wells Fargo Portal</div>
+                    <p class="lead text-muted">Online Portal</p>
                 </div>
             </section>
             <div class="container">
@@ -158,12 +158,12 @@
                                     <a class="nav-item nav-link active" id="nav-overview-tab" data-toggle="tab"
                                        href="#nav-overview" role="tab" aria-controls="nav-overview" aria-selected="true">Overview</a>
                                     <a class="nav-item nav-link" id="nav-drivers-tab" data-toggle="tab" href="#nav-drivers"
-                                       role="tab" aria-controls="nav-drivers" aria-selected="false">Drivers</a>
+                                       role="tab" aria-controls="nav-drivers" aria-selected="false">Home Loans</a>
                                     <a class="nav-item nav-link" id="nav-vehicles-tab" data-toggle="tab" href="#nav-vehicles"
-                                       role="tab" aria-controls="nav-vehicles" aria-selected="false">Vehicles</a>
+                                       role="tab" aria-controls="nav-vehicles" aria-selected="false">Auto Loans</a>
                                     <a class="nav-item nav-link" id="nav-passengers-tab" data-toggle="tab"
                                        href="#nav-passengers"
-                                       role="tab" aria-controls="nav-passengers" aria-selected="false">Passengers</a>
+                                       role="tab" aria-controls="nav-passengers" aria-selected="false">Personal Loans</a>
                                 </div>
                             </nav>
                             <div class="tab-content py-3 px-3 px-sm-0" id="nav-tabContent">
@@ -172,17 +172,17 @@
                                     <div class="row">
                                         <div class="col-md-4 mb-5 mt-5 text-center">
                                             <i class="fas fa-users fa-3x green-text"></i>
-                                            <h4 class="my-4 tab-title">Drivers</h4>
-                                            <h4 class="grey-text">30</h4>
+                                            <h4 class="my-4 tab-title">Home Loans</h4>
+                                            <h4 class="grey-text">67</h4>
                                         </div>
                                         <div class="col-md-4 mb-1 mt-5 text-center">
                                             <i class="fa fa-car fa-3x green-text"></i>
-                                            <h4 class="my-4 tab-title">Vehicles</h4>
-                                            <h4 class="grey-text">40</h4>
+                                            <h4 class="my-4 tab-title">Auto Loans</h4>
+                                            <h4 class="grey-text">128</h4>
                                         </div>
                                         <div class="col-md-4 mb-1 mt-5 text-center">
                                             <i class="fa fa-users fa-3x green-text"></i>
-                                            <h4 class="my-4 tab-title">Passengers</h4>
+                                            <h4 class="my-4 tab-title">Personal Loans</h4>
                                             <h4 class="grey-text">250</h4>
                                         </div>
                                     </div>
@@ -433,8 +433,7 @@
         </div>
     </main>
     <footer class="text-muted footer text-center">
-        <span>Copyright &copy;  <a href="http://wso2.com/" target="_blank">
-            <img src="img/wso2-dark.svg" class="wso2-logo" alt="wso2-logo"></a> &nbsp;<span class="year"></span>
+        <span>Copyright &copy; Wells Fargo<span class="year"></span>
         </span>
     </footer>
 

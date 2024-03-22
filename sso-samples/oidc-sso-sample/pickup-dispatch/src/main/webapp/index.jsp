@@ -32,7 +32,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="PICKUP DISPATCH - Login">
 
-    <title>Dispatch Login</title>
+    <title>Finra | Login</title>
 
     <!-- Bootstrap Material Design CSS -->
     <link href="libs/bootstrap-material-design_4.0.0/css/bootstrap-material-design.min.css" rel="stylesheet">
@@ -52,9 +52,9 @@
             <div class="col-sm-9 col-md-4 col-lg-4 mx-auto login-sec">
                 <div class="app-icon d-block mx-auto">
                     <!--<i class="fas fa-taxi fa-4x"></i>-->
-                    <img src="img/dispatch.png" class="login-img"/>
+                    <img src="img/finra-logo.jpg" class="login-img mx-auto"/>
                 </div>
-                <div class="app-name text-center">PICKUP DISPATCH</div>
+                <div class="app-name text-center">Finra</div>
                 <form class="app-login-form" role="form" action="oauth2-authorize-user.jsp?reset=true" method="post" id="login-form"
                       autocomplete="off">
                     <input type="submit" id="btn-login" class="btn btn-login" value="LOGIN"/>
@@ -63,9 +63,7 @@
         </div>
     </div>
     <div class="text-muted text-center login-footer">
-        <span>Sample Application. </span>
-        <span>Copyright &copy;  <a href="http://wso2.com/" target="_blank">
-            <img src="img/wso2-dark.svg" class="wso2-logo" alt="wso2-logo"></a> &nbsp;<span class="year"></span>
+        <span>Copyright &copy; Finra <span class="year"></span>
         </span>
     </div>
 </section>

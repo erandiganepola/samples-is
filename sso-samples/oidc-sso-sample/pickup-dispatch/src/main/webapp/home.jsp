@@ -90,7 +90,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="PICKUP DISPATCH - Vehicle allocation application">
 
-    <title>Pickup-Dispatch</title>
+    <title>Finra</title>
 
     <!-- Bootstrap Material Design CSS -->
     <link href="libs/bootstrap-material-design_4.0.0/css/bootstrap-material-design.min.css" rel="stylesheet">
@@ -114,7 +114,7 @@
 
 <div id="actionContainer">
     <nav class="navbar navbar-expand-lg navbar-dark app-navbar justify-content-between">
-        <a class="navbar-brand" href="home.jsp"><i class="fas fa-taxi"></i> PICKUP DISPATCH</a>
+        <a class="navbar-brand" href="home.jsp">Finra</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
                 aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -154,81 +154,26 @@
         <div id="main-content">
             <section class="jumbotron text-center">
                 <div class="container">
-                    <div class="jumbotron-heading">PICKUP DISPATCH</div>
-                    <p class="lead text-muted">Vehicle Booking Application</p>
+                    <div class="jumbotron-heading">Finra</div>
+                    <p class="lead text-muted">Creating Opportunity Together</p>
                 </div>
             </section>
             <div class="container">
                 <section id="tabs">
                     <div class="row">
                         <div class="col-md-12">
-                            <nav>
-                                <div class="col-md-6 d-block mx-auto">
-                                    <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
-                                        <a class="nav-item nav-link active" id="nav-overview-tab" data-toggle="tab"
-                                           href="#nav-overview" role="tab" aria-controls="nav-overview"
-                                           aria-selected="true"><i
-                                                class="fas fa-edit"></i> &nbsp;Make a Booking</a>
-                                        <a class="nav-item nav-link" id="nav-drivers-tab" data-toggle="tab"
-                                           href="#nav-drivers"
-                                           role="tab" aria-controls="nav-drivers" aria-selected="false" onclick="fetchBookings()"><i
-                                                class="fas fa-list"></i> &nbsp;View Bookings</a>
-                                    </div>
-                                </div>
-                            </nav>
-                            <div class="tab-content py-3 px-3 px-sm-0" id="nav-tabContent">
-                                <div class="tab-pane fade show active" id="nav-overview" role="tabpanel"
-                                     aria-labelledby="nav-overview-tab">
-                                    <div class="row">
-                                        <div class="col-md-6 mb-5 mt-5 d-block mx-auto">
-                                            <form>
-                                                <div class="form-group">
-                                                    <label for="drivers" class="bmd-label-floating">Driver</label>
-                                                    <select class="form-control" id="drivers">
-                                                        <option selected>Select a driver</option>
-                                                        <option>Tiger Nixon (D0072)</option>
-                                                        <option>Joshua Winters (D0053)</option>
-                                                        <option>Lucas Thiyago (D0046)</option>
-                                                        <option>Woo Jin (D0027)</option>
-                                                        <option>Airi Satou (D0013)</option>
-                                                        <option>Brielle Williamson (D0009)</option>
-                                                    </select>
-                                                </div>
-                                                <div class="form-group">
-                                                    <label for="passenger" class="bmd-label-floating">Passenger</label>
-                                                    <input type="text" class="form-control" id="passengerName">
-                                                </div>
-                                                <div class="form-group">
-                                                    <label for="contactNumber" class="bmd-label-floating">Contact Number</label>
-                                                    <input type="text" class="form-control" id="contactNumber">
-                                                </div>
-                                                <div class="form-group mt-5">
-                                                    <button type="button"
-                                                            class="btn btn-outline-primary btn-create content-btn mt-4 d-block mx-auto"
-                                                            onclick="addData()">Add
-                                                    </button>
-                                                </div>
-                                            </form>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="tab-pane fade" id="nav-drivers" role="tabpanel"
-                                     aria-labelledby="nav-drivers-tab">
-                                    <div class="table-responsive content-table">
-                                        <table class="table" id = "bookingTab">
-                                            <thead>
-                                            <tr>
-                                                <th>Ref-id</th>
-                                                <th>Driver</th>
-                                                <th>Client</th>
-                                                <th>Client phone</th>
-                                            </tr>
-                                            </thead>
-                                            <tbody>
-                                            </tbody>
-                                        </table>
-                                    </div>
-                                </div>
+                            <div class="d-flex justify-content-center">
+                                <a class="btn btn-primary" href="https://www.finra.org/filing-reporting" target="_blank">Events & Training</a>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="d-flex justify-content-center">
+                                <a class="btn btn-primary" href="https://www.finra.org/compliance-tools" target="_blank">Compliance Tools</a>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="d-flex justify-content-center">
+                                <a class="btn btn-primary" href="https://www.finra.org/investors" target="_blank">For Investors</a>
                             </div>
                         </div>
                     </div>
@@ -277,8 +222,7 @@
         </div>
     </main><!-- /.container -->
     <footer class="text-muted footer text-center">
-        <span>Copyright &copy;  <a href="http://wso2.com/" target="_blank">
-            <img src="img/wso2-dark.svg" class="wso2-logo" alt="wso2-logo"></a> &nbsp;<span class="year"></span>
+        <span>Copyright &copy; Finra&nbsp;<span class="year"></span>
         </span>
     </footer>
 </div>
@@ -387,7 +331,7 @@
 %>
 <script>
     hljs.initHighlightingOnLoad();
-    loadMetadata();
+    // loadMetadata();
 </script>
 
 </body>
